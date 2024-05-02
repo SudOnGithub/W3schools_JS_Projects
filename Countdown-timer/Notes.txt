@@ -1,0 +1,12 @@
+
+// take notes
+
+// remainder k liye consts like , 60 , 24 isnse divide kre
+
+//  input ki value  input.value se daalte h
+
+// setInterval helps refresh every second
+
+//  time is in miliseconds therefore devide by 1000
+
+//  if (diff<0) return; it will fall back

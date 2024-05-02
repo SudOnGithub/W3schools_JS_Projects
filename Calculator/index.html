@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div><input id="display" type="text" readonly /></div>
+      <div id="button-container">
+        <button onclick="appendToDisplay('+')" class="grey-clr orange" >+</button>
+        <button onclick="appendToDisplay('7')" class="grey-clr" >7</button>
+        <button onclick="appendToDisplay('8')" class="grey-clr" >8</button>
+        <button onclick="appendToDisplay('9')" class="grey-clr" >9</button>
+        <button onclick="appendToDisplay('-')" class="grey-clr orange" >-</button>
+        <button onclick="appendToDisplay('4')" class="grey-clr" >4</button>
+        <button onclick="appendToDisplay('5')" class="grey-clr" >5</button>
+        <button onclick="appendToDisplay('6')" class="grey-clr" >6</button>
+        <button onclick="appendToDisplay('*')" class="grey-clr orange" >*</button>
+        <button onclick="appendToDisplay('1')" class="grey-clr" >1</button>
+        <button onclick="appendToDisplay('2')" class="grey-clr" >2</button>
+        <button onclick="appendToDisplay('3')" class="grey-clr" >3</button>
+        <button onclick="appendToDisplay('/')" class="grey-clr orange" >/</button>
+        <button onclick="appendToDisplay('0')" class="grey-clr" >0</button>
+        <button onclick="appendToDisplay('.')" class="grey-clr" >.</button>
+        <button onclick="calculate()" class="grey-clr" >=</button>
+        <button onclick="clearDisplay()" class="grey-clr orange" >C</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

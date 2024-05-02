@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Courier, monospace
+}
+
+.container {
+  background-image: url(./back-img.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.312);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  margin: 1%;
+}
+
+input{
+  width: 18vh;
+  height: 7vh;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.clock{
+  display: flex;
+  gap: 10vh;
+}
+
+.clock P{
+  font-size: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 60%;
+    margin: auto;
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px ;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+}
+
+.nav{
+    padding: 2%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.nav button{
+    width: 20%;
+    height: 5vh;
+    margin: 2px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
